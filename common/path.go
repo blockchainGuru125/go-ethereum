@@ -39,7 +39,6 @@ func FileExist(filePath string) bool {
 
 	return true
 }
-
 // AbsolutePath returns datadir + filename, or filename if it is absolute.
 func AbsolutePath(datadir string, filename string) string {
 	if filepath.IsAbs(filename) {
