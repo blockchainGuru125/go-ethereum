@@ -22,7 +22,6 @@ import (
 	"path/filepath"
 	"runtime"
 )
-
 // MakeName creates a node name that follows the ethereum convention
 // for such names. It adds the operation system name and Go runtime version
 // the name.
